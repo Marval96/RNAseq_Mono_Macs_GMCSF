@@ -22,7 +22,7 @@ dir.create(OUT_TABLES,  showWarnings = FALSE, recursive = TRUE)
 # --- Cargar DEGs --------------------------------------------------------------
 res_df <- read.csv("results/tables/DEGs_monocyte_vs_macrophage.csv", row.names = 1)
 
-# Genes significativos: upregulated en macrófagos
+# Genes significativos: sobreexpresados en macrófagos
 up_genes <- res_df %>%
   filter(!is.na(padj), padj < FDR_CUTOFF, log2FoldChange >= LFC_CUTOFF) %>%
   rownames()
@@ -36,7 +36,7 @@ up_entrez <- bitr(up_genes,
 # --- Enriquecimiento GO -------------------------------------------------------
 ego <- enrichGO(gene         = up_entrez,
                 OrgDb        = org.Hs.eg.db,
-                ont          = "BP",     # Biological Process
+                ont          = "BP",     # Proceso Biológico (Biological Process)
                 pAdjustMethod = "BH",
                 pvalueCutoff = FDR_CUTOFF,
                 readable     = TRUE)

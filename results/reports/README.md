@@ -11,9 +11,9 @@ Esta carpeta almacena los reportes HTML generados durante el control de calidad.
 
 ## Cómo interpretar MultiQC
 
-El reporte MultiQC resume las métricas clave de calidad de todas las muestras:
+El reporte de MultiQC resume las métricas clave de calidad de todas las muestras:
 
-- **Per base sequence quality** — calidad por posición de lectura
-- **Per sequence GC content** — contenido GC (debe ser ~50% en humano)
-- **Sequence duplication levels** — nivel de duplicados (esperado alto en RNA-seq)
-- **Adapter content** — presencia de adaptadores (deben ser removidos si >5%)
+- **Per base sequence quality** *(calidad por posición de lectura)* — debe mantenerse en verde (Q > 28)
+- **Per sequence GC content** *(contenido GC por lectura)* — debe ser ~50% en humano
+- **Sequence duplication levels** *(nivel de duplicados)* — es esperado alto en RNA-seq; no necesariamente indica problema
+- **Adapter content** *(presencia de adaptadores)* — deben ser removidos si superan el 5%

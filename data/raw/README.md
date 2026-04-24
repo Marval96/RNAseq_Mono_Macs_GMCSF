@@ -4,7 +4,7 @@ Esta carpeta contiene (o apunta a) los archivos FASTQ originales generados por e
 
 ## ⚠️ Importante
 
-Los archivos FASTQ **NO se almacenan en este repositorio** porque son demasiado pesados (varios GB por muestra). Están excluidos vía `.gitignore`.
+Los archivos FASTQ **NO se almacenan en este repositorio** porque son demasiado pesados (varios GB por muestra). Están excluidos mediante `.gitignore`.
 
 ## 📥 Cómo obtener los datos crudos
 
@@ -12,7 +12,7 @@ Los archivos FASTQ **NO se almacenan en este repositorio** porque son demasiado 
 
 ### Opción A — Descarga desde SRA (NCBI)
 ```bash
-# Reemplazar SRR_XXXXXXX con los accession numbers reales
+# Reemplazar SRR_XXXXXXX con los números de acceso reales
 fastq-dump --split-files --gzip SRR_XXXXXXX
 ```
 
@@ -26,10 +26,10 @@ URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSEXXXXXXX
 
 ```
 data/raw/
-├── sample1_R1.fastq.gz
-├── sample1_R2.fastq.gz
-├── sample2_R1.fastq.gz
-├── sample2_R2.fastq.gz
+├── muestra1_R1.fastq.gz
+├── muestra1_R2.fastq.gz
+├── muestra2_R1.fastq.gz
+├── muestra2_R2.fastq.gz
 └── ...
 ```
 

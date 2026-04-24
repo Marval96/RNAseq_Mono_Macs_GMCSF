@@ -54,7 +54,7 @@ message(sprintf("Genes después de filtrado: %d", nrow(dds)))
 # Análisis
 dds <- DESeq(dds)
 
-# Resultados: macrophage vs. monocyte (referencia = monocyte)
+# Resultados: macrófago vs. monocito (referencia = monocito)
 res <- results(dds,
                contrast  = c("condition", "macrophage", "monocyte"),
                alpha     = FDR_CUTOFF)
