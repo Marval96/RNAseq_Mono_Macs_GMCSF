@@ -1,0 +1,25 @@
+name: rnaseq_gmcsf
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Control de calidad
+  - fastqc=0.12.1
+  - multiqc=1.21
+  - trimmomatic=0.39
+  # Alineamiento
+  - star=2.7.11a
+  - hisat2=2.2.1
+  - samtools=1.19
+  # Cuantificación
+  - subread=2.0.6      # featureCounts
+  - salmon=1.10.3
+  # Python base
+  - python=3.11
+  - pip
+  - pip:
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn

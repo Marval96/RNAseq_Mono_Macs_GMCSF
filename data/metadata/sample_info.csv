@@ -1,0 +1,7 @@
+sample_id,condition,replicate,batch,time_point_days,notes
+mono_R1,monocyte,1,1,0,
+mono_R2,monocyte,2,1,0,
+mono_R3,monocyte,3,1,0,
+mac_R1,macrophage,1,1,7,GMCSF 50ng/mL
+mac_R2,macrophage,2,1,7,GMCSF 50ng/mL
+mac_R3,macrophage,3,1,7,GMCSF 50ng/mL
