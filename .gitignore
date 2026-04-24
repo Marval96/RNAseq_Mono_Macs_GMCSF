@@ -1,3 +1,37 @@
+# =============================================================================
+# Archivos excluidos — Análisis RNA-seq
+# =============================================================================
+
+# --- Datos crudos y pesados (NO subir a GitHub) ---
+data/raw/*.fastq.gz
+data/raw/*.fastq
+data/raw/*.fq.gz
+data/raw/*.fq
+
+# Archivos de alineamiento (BAMs son muy pesados)
+data/processed/alignments/*.bam
+data/processed/alignments/*.bam.bai
+data/processed/alignments/*.sam
+
+# Índices del genoma de referencia
+data/reference/
+
+# Archivos temporales de STAR
+data/processed/alignments/*_STARtmp/
+data/processed/alignments/*_STARgenome/
+
+# Archivos de log de alineamiento (opcionales, pesados)
+data/processed/alignments/*.Log.*
+
+# Archivos RDS de R (objetos grandes como DESeqDataSet)
+# Descomenta si quieres excluirlos:
+# data/processed/*.rds
+# data/processed/*.RData
+
+# Resultados de reportes HTML generados (regenerables)
+results/reports/fastqc/*.zip
+
+# =============================================================================
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
