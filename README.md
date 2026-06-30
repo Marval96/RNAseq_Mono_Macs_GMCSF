@@ -1,12 +1,12 @@
-# Análisis Transcriptómico de la Diferenciación Monocito-Macrófago inducida por GM-CSF
+# **Análisis Transcriptómico de la Diferenciación Monocito-Macrófago inducida por GM-CSF**
 
-> **Tesis de Maestría** — Unidad de Investigación en Virología y Cáncer (UIVC), HIMFG
+> **Tesis de Maestría** — Posgrado en Ciencias Biológicas, Universidad Nacional Autónoma de México Unidad-Facultad de Medicina (UNAM), Unidad de Investigación en Virología y Cáncer (UIVC), Hospital Infantil de México, Federico Gómez (HIMFG).
 
-Este repositorio documenta el análisis de RNA-seq de la diferenciación Monocito-Macrófago conducida por el Factor Estimulante de Colonias de Granulocitos y Macrófagos (GM-CSF). Contiene todos los scripts, metadatos esenciales y resultados organizados para garantizar la **reproducibilidad** del análisis y servir como base para la publicación científica derivada de la tesis.
+Este repositorio documenta el análisis de RNA-seq de la diferenciación Monocito-Macrófago inducida por el Factor Estimulante de Colonias de Granulocitos y Macrófagos (GM-CSF). Contiene todos los scripts, metadatos esenciales y resultados organizados para garantizar la **reproducibilidad** del análisis.
 
 ---
 
-## 🗂️ Estructura del repositorio
+## Estructura del repositorio
 
 ```
 RNAseq_Mono_Macs_GMCSF/
