@@ -2,13 +2,11 @@
 
 Esta carpeta contiene la relación de los archivos FASTQ originales generados por el secuenciador.
 
-**Nota:** los archivos FASTQ O no se almacenan en este repositorio porque son demasiado pesados (varios GB por muestra). 
-
----
+**Nota:** los archivos FASTQ no se almacenan en este repositorio porque son demasiado pesados (varios GB por muestra). 
 
 ## Estructura esperada de archivos
 
-Laas bibliotecas y archivos de secuenciación están organizados de la siguiente manera.
+Las bibliotecas y archivos de secuenciación están organizados de la siguiente manera.
 
 | Condición | Réplica biológica | ID de la biblioteca | Nombre del archivo | Total de lecturas |
 |---|---:|---|---|---:|
